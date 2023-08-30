@@ -14,6 +14,18 @@ $ ./mvnw clean install -Dmaven.test.skip=true -Pprod
 $ docker run -it -p 8080:8080 -e DYNAMIC_CONFIG_ENABLED=true provectuslabs/kafka-ui
 ```
 
+### Rename docker image
+
+```shell
+$ docker tag provectuslabs/kafka-ui:latest masteritaignosi/sientia-data-hub:1.0.0
+```
+
+### Push image to repository
+
+```shell
+$ docker push masteritaignosi/sientia-data-hub:1.0.0
+```
+
 ![UI for Apache Kafka logo](documentation/images/kafka-ui-logo.png) UI for Apache Kafka&nbsp;
 ------------------
 #### Versatile, fast and lightweight web UI for managing Apache Kafka® clusters. Built by developers, for developers.
