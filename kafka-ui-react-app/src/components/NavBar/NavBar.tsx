@@ -69,7 +69,7 @@ const NavBar: React.FC<Props> = ({ onBurgerClick }) => {
 
           <S.Hyperlink to="/">
             <Logo />
-            Sientia Data Hub
+            SIENTIA™ Data Hub
           </S.Hyperlink>
 
           <S.NavbarItem>
